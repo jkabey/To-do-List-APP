@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -30,6 +30,110 @@
             <button class="btn" id="add-todo">Add</button>
         </div>
         <ul class="scroll" id="todoList"></ul>
+        <div>
+            <hr class="counter" />
+            <div class="counter-container">
+                <p><span id="todoCount">0</span> items total</p>
+                <button id="deleteButton">Delete All</button>
+                <button id="logout-button">Logout</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html> -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="auth-container">
+        <h2>Register</h2>
+        <form id="register-form" method="post">
+            <input type="text" id="reg-username" placeholder="Username" required><br>
+            <input type="password" id="reg-password" placeholder="Password" required><br>
+            <button type="submit">Register</button>
+        </form>
+
+        <h2>Login</h2>
+        <form id="login-form" method="post">
+            <input type="text" id="login-username" placeholder="Username" required><br>
+            <input type="password" id="login-password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <section class="todo" id="todo-container" style="display:none;">
+        <h2>To-do list</h2>
+        <div class="input">
+            <input type="text" class="input-field" id="todoInput" placeholder="Add a new todo" />
+            <button class="btn" id="add-todo">Add</button>
+        </div>
+        <ul class="scroll" id="todoList">
+            <! Tasks will be dynamically added here -->
+        <!-- </ul>
+        <div>
+            <hr class="counter" />
+            <div class="counter-container">
+                <p><span id="todoCount">0</span> items total</p>
+                <button id="deleteButton">Delete All</button>
+                <button id="logout-button">Logout</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html> --> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="auth-container">
+        <h2>Register</h2>
+        <form id="register-form" method="post">
+            <input type="text" id="reg-username" placeholder="Username" required><br>
+            <input type="password" id="reg-password" placeholder="Password" required><br>
+            <button type="submit">Register</button>
+        </form>
+
+        <h2>Login</h2>
+        <form id="login-form" method="post">
+            <input type="text" id="login-username" placeholder="Username" required><br>
+            <input type="password" id="login-password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <section class="todo" id="todo-container" style="display:none;">
+        <h2>To-do list</h2>
+        <div class="input">
+            <input type="text" class="input-field" id="todoInput" placeholder="Add a new todo title" />
+            <input type="text" class="input-field" id="descriptionInput" placeholder="Add a description (optional)" /> <br>
+            <button class="btn" id="add-todo">Add</button>
+        </div>
+        <ul class="scroll" id="todoList">
+            </ul>
         <div>
             <hr class="counter" />
             <div class="counter-container">

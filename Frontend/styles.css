@@ -50,7 +50,7 @@ p {
     justify-content: space-around;
     border-radius: 2rem;
     background: var(--white);
-    padding: 3rem;
+    padding: 6rem;
     height: 50%;
     width: 60%;
     box-shadow: 0 1rem 3rem 1rem rgba(0, 23, 71, 0.15);
